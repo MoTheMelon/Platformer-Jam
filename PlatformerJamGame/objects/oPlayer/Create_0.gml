@@ -1,5 +1,7 @@
-image_speed = 0;
-move_speed = 4;
+image_speed = 1;
+sprite_index = sPlayer_Run;
+image_index = 0;
+move_speed = 1;
 jump_speed = 10;
 grav = 0.5;
 hsp = 0;

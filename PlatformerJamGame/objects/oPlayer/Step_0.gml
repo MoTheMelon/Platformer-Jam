@@ -3,6 +3,12 @@
 var move = keyboard_check(vk_right) - keyboard_check(vk_left);
 hsp = move * move_speed;
 
+if (hsp != 0){
+	sprite_index = sPlayer_Run;
+}else{
+	sprite_index = sPlayer_Idle;	
+}
+
 // === TILEMAP COLLISION FUNCTION ===
 function tile_collision_at(px, py) {
     var tile_data = tilemap_get_at_pixel(tilemap_id, px, py);

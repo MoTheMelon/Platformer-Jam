@@ -36,7 +36,8 @@
   "resources":[
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sPlayer_Idle","path":"sprites/sPlayer_Idle/sPlayer_Idle.yy",},},
+    {"id":{"name":"sPlayer_Run","path":"sprites/sPlayer_Run/sPlayer_Run.yy",},},
     {"id":{"name":"tilemap_packed","path":"sprites/tilemap_packed/tilemap_packed.yy",},},
     {"id":{"name":"tsSample","path":"tilesets/tsSample/tsSample.yy",},},
   ],
